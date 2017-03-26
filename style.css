@@ -269,9 +269,9 @@
     body{margin:0;padding:0;overflow-x:hidden;font-family: PT Sans,Helvetica Neue,Helvetica,Arial,sans-serif}
     img{border:none;}
     a{text-decoration: none;}
-  	#fw-container{width:100%;margin:0;padding:0;font-family:Arial, Helvetica, sans-serif;font-size:16px;border:0px solid #dbdee1;overflow:hidden;box-sizing:border-box;text-align: left;}
+  	#fw-container{width:100%;margin:0;padding:0;font-family:PT Sans,Helvetica Neue,Helvetica,Arial,sans-serif;font-size:16px;border:0px solid #dbdee1;overflow:hidden;box-sizing:border-box;text-align: left;}
     header{margin:0;padding:0;background-color:#ffffff;background-image:none;font-size:16px;}
-    header .fw-feed-title{margin:0 20px;padding:20px 0 15px 0;word-wrap:break-word;border-bottom:1px solid #dbdee1;}
+    header .fw-feed-title{margin:0 20px;padding:20px 0 15px 0;word-wrap:break-word;border-bottom:1px solid #dbdee1;font-weight:700}
     header .fw-feed-title a:link{color:#505659;}
     header .fw-feed-title a:hover{color:#505659;}
     header .fw-feed-title a:visited{color:#505659;}
@@ -279,7 +279,7 @@
     
     #fw-feed-items{margin:0;padding:0; overflow:hidden; z-index:-999;}
     
-	#fw-feed-items .fw-feed-item{margin:0;padding:20px 0;clear:both;border-bottom: 1px dashed #CCCCCC;}
+	#fw-feed-items .fw-feed-item{margin:0 0 20px;padding:0;clear:both;border-bottom: 1px solid #CCCCCC;}
     #fw-feed-items .fw-feed-item:hover{margin:0;padding:20px 0;clear:both;opacity:0.7;}/***hover時に文字やイメージを透過***/
     #fw-feed-items .fw-feed-item-url{display: block;overflow: hidden;}
     
