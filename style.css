@@ -266,8 +266,8 @@ img{border:none;}
     a{text-decoration: none;}
   	#fw-container{width:100%;margin:0;padding:0;font-family:PT Sans,Helvetica Neue,Helvetica,Arial,sans-serif;font-size:16px;border:none;overflow:hidden;box-sizing:border-box;text-align: left;}
     header{margin:0;padding:0;background-color:#ffffff;background-image:none;font-size:16px;}
-    header .fw-feed-title{margin:0 20px;padding:20px 0 15px 0;border-bottom:none;color:#666;font-weight:700}
-    header .fw-feed-title a:link{color:#859ce6;}
+    header .fw-feed-title{margin:0 20px;padding:20px 0 15px 0;border-bottom:none;color:#000;font-weight:700}
+    header .fw-feed-title a:link{color:#000;}
     header .fw-feed-title a:hover{color:#859ce6;}
 	#fw-feed-items-scroll-area{background-color:#fff; background-image:none; width: 100%; overflow:hidden;}
     
@@ -290,6 +290,6 @@ img{border:none;}
     #fw-feed-items .fw-feed-item-title{font-family:PT Sans,Helvetica Neue,Helvetica,Arial,sans-serif;line-height:1.1;font-weight:700;margin:0 2px 5px 0;padding:0 2px 0 0;color:#000;font-size:18px;overflow:hidden;display:block;}
     #fw-feed-items .fw-feed-item-description{margin:0 2px 0 0;padding:0 2px 0 0;color:#000;word-wrap:break-word;line-height:1.5;font-size:13px;overflow: hidden;display: block;}
     #fw-feed-items .fw-feed-item-date{margin:5px 0 0 0;padding:0;font-size:12px;;color:#000;overflow:hidden;text-overflow:ellipsis;display:block;}/***非表示の場合はdisplay:none***/
-    #fw-feed-items .fw-feed-item-link{margin:0;padding:0;font-size:12px;color:#d2d0cb;overflow:hidden;text-overflow:ellipsis;display:block;}/***非表示の場合はdisplay:none***/
+    #fw-feed-items .fw-feed-item-link{margin:0;padding:0;font-size:12px;color:#000;overflow:hidden;text-overflow:ellipsis;display:block;}/***非表示の場合はdisplay:none***/
 @media screen and (max-width:414px){
 	#fw-feed-items .fw-feed-item-description, #fw-feed-items .fw-feed-item-date, #fw-feed-items .fw-feed-item-link {display:none}
